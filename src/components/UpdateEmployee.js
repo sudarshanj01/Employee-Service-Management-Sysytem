@@ -42,7 +42,7 @@ const UpdateEmployee = () => {
   };
 
   return (
-    <div className="flex max-w-2xl mx-auto shadow border-b">
+    <div className="flex max-w-2xl mx-auto shadow border-b bg-yellow-100 mt-10">
       <div className="px-8 py-8">
         <div className="font-thin text-2xl tracking-wider">
           <h1>Update Employee</h1>

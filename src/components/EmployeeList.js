@@ -35,28 +35,28 @@ const EmployeeList = () => {
   };
 
   return (
-    <div className="container mx-auto my-8">
-      <div className="h-12">
+    <div className="container mx-auto my-8 ">
+      <div className="h-12 ">
         <button
           onClick={() => navigate("/add")}
-          className="rounded bg-slate-600 text-white px-6 py-2 font-semibold">
+          className="rounded bg-slate-900 text-white px-6 py-2 font-semibold ml-2">
           Add Employee
         </button>
       </div>
-      <div className="flex shadow border-b">
-        <table className="min-w-full">
-          <thead className="bg-gray-50">
+      <div className="flex shadow border-b ">
+        <table className="min-w-full ">
+          <thead className="bg-gray-300 ">
             <tr>
-              <th className="text-left font-medium text-gray-500 uppercase tracking-wider py-3 px-6">
+              <th className="text-left font-large text-orange-400 uppercase tracking-wider py-3 px-6">
                 First Name
               </th>
-              <th className="text-left font-medium text-gray-500 uppercase tracking-wider py-3 px-6">
+              <th className="text-left font-large text-orange-400 uppercase tracking-wider py-3 px-6">
                 Last Name
               </th>
-              <th className="text-left font-medium text-gray-500 uppercase tracking-wider py-3 px-6">
+              <th className="text-left font-large text-orange-400 uppercase tracking-wider py-3 px-6">
                 Email ID
               </th>
-              <th className="text-right font-medium text-gray-500 uppercase tracking-wider py-3 px-6">
+              <th className="text-right font-large text-orange-400 uppercase tracking-wider py-3 px-6">
                 Actions
               </th>
             </tr>
